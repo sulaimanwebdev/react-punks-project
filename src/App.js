@@ -108,14 +108,14 @@ function App() {
     <>
       <div className="header">
         <div className="logo"><img src="/images/logo.jpg" alt="" /></div>
-
+        <button className="connectWallet">CONNECT WALLET</button>
       </div>
       <div className="main">
 
 
 
 
-        <h1>MINT PUNKS</h1>
+        <h1>MINT YOUR zkAPES</h1>
 
 
         <div className="card">
@@ -154,19 +154,6 @@ function App() {
 
 
 
-            <div className="progress">
-              <h2>Progress</h2>
-              <div className="progresCont">
-                <div className="rProgress"></div>
-                <h3>100%</h3>
-
-              </div>
-            </div>
-
-
-
-
-
 
 
 
@@ -195,7 +182,7 @@ function App() {
       </div>
 
       <div className="footer">
-        <p>Copyright © 2021 IMX PUNKS, All Right Reserved</p>
+        <p>Copyright © 2021 zkAPES, All Right Reserved</p>
       </div>
 
     </>

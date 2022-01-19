@@ -1,10 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
 }
 
@@ -75,6 +71,7 @@ h1{
   z-index: 4;
   margin-top: 30px;
   color: white;
+  font-family: 'Chakra Petch', sans-serif !important;
 
 }
 
@@ -126,7 +123,7 @@ h1{
 
 
 .innerCont h3{
-  color: #F567B5;
+  color: white;
   font-size: 19px;
   font-weight: bold;
   
@@ -169,12 +166,39 @@ h1{
 
 .max{
   padding: 5px 8px;
-  border-radius: 50px;
-  background-color: #F567B5;
+  border-radius: 6px;
+  background: linear-gradient(
+    351.09deg,#F029A0 4.36%,#F0B000 117.5%);
   color: white;
   font-weight: bold;
   border: none;
+  transition: 0.3s;
   cursor: pointer;
+}
+
+.max:hover{
+  background: linear-gradient(
+    351.09deg,#F0B000 4.36%, #F029A0 117.5%);
+}
+
+.connectWallet{
+  background: linear-gradient(
+    351.09deg,#F029A0 4.36%,#F0B000 117.5%);
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 15px 25px;
+  font-size: 17px;
+
+
+}
+
+.connectWallet:hover{
+  background: linear-gradient(
+    351.09deg,#F0B000 4.36%, #F029A0 117.5%);
 }
 
 .mainBTN{
@@ -184,17 +208,28 @@ h1{
   margin-top: 30px;
 }
 .mainBTN button{
- padding: 10px 15px;
- border-radius: 60px;
- background-color: #F567B5;
- color: white;
- font-weight: bold;
- border: none;
- cursor: pointer;
- font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  color: white;
+  width: 100%;
+  outline: none;
+  cursor: pointer;
+  line-height: 27px;
+  padding: 11px 32px;
+  background: linear-gradient(
+351.09deg,#F029A0 4.36%,#F0B000 117.5%);
+  box-shadow: 0 4px 10px rgb(0 0 0 / 25%);
+  border-radius: 8px;
+  transition: 0.3s;
  
 }
 
+.mainBTN button:hover{
+  background: linear-gradient(
+351.09deg,#F0B000 4.36%, #F029A0 117.5%);
+}
 
 
 .ggg{
