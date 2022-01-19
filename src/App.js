@@ -176,13 +176,12 @@ function App() {
 
 
 
-
         <div className="darkBackground"></div>
-        <img src="/images/background.png" className="background" alt="" />
+        <img src="/images/backgroundApes1.jpeg" className="background" alt="" />
       </div>
 
       <div className="footer">
-        <p>Copyright © 2021 zkAPES, All Right Reserved</p>
+        <p>Copyright © 2022 zkAPES, All Right Reserved</p>
       </div>
 
     </>

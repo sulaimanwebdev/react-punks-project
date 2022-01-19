@@ -56,7 +56,7 @@ code {
 
 
 .card{
-  background-color: rgba(0, 0, 0, 0.938);
+  background-color: #304d72;
   padding: 10px 30px;
   border-radius: 5px;
   min-height: 400px;
@@ -261,7 +261,6 @@ justify-content: center;}
 @media (max-width:600px){
   
 .card{
-  background-color: rgba(0, 0, 0, 0.884);
   padding: 30px;
   border-radius: 5px;
   min-height: auto;
