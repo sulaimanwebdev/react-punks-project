@@ -30,7 +30,7 @@ function App() {
 
 
 
-    if (counter == 2) {
+    if (counter === 2) {
       setethPrice(".207")
     }
 
@@ -107,7 +107,7 @@ function App() {
   return (
     <>
       <div className="header">
-        <div className="logo"><img src="/images/logo.jpg" alt="" /></div>
+        <div className="logo"><img src="/images/LOGO-main.png" alt="" /></div>
         <button className="connectWallet">CONNECT WALLET</button>
       </div>
       <div className="main">

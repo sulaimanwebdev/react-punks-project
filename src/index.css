@@ -318,10 +318,15 @@ justify-content: center;}
   z-index: 111111;
   background-color: #000000;
 }
+.logo{
+  transform: translateX(-20px);
 
+}
 .logo img{
-  width:60px;
+  width:100px;
   cursor: pointer;
+  transform: translateY(3px);
+  display: block;
 }
 
 nav{
@@ -356,4 +361,20 @@ nav a:hover{
   background-color: rgb(252, 252, 57);
   color: black;
 
+}
+
+
+
+@media (max-width:385px){
+  .connectWallet{
+    font-size: 15px !important;
+  }
+}
+
+
+
+@media (max-width:351px){
+  .connectWallet{
+    font-size: 13px !important;
+  }
 }
