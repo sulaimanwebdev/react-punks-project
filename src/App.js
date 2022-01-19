@@ -177,7 +177,7 @@ function App() {
 
 
         <div className="darkBackground"></div>
-        <img src="/images/backgroundApes1.jpeg" className="background" alt="" />
+        <img src="/images/mainBG.jpeg" className="background" alt="" />
       </div>
 
       <div className="footer">
